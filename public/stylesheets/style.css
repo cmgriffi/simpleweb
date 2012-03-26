@@ -91,6 +91,7 @@ Content
 .pic{
 	margin-left:10px;
 	float:right;
+	border:2px outset orange;
 }
 /*****************
 sidebar
