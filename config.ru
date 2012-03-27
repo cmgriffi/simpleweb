@@ -5,7 +5,7 @@ require 'rack'
 require 'rack/rewrite'
 require 'thin'
 
-use Rack::Static, :urls => ["/css", "/images", "/index.html", "/secondpages.html", "/home.html", "/password.html"], :root => "public"
+use Rack::Static, :urls => ["/stylesheets", "/images", "/index.html", "/secondpages.html", "/home.html", "/password.html"], :root => "public"
 
 use Rack::Rewrite do
 rewrite '/', '/index.html'
