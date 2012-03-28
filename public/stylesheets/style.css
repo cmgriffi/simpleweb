@@ -118,6 +118,7 @@ Content
 		color-stop(0.03, rgb(247,247,247)),
 		color-stop(0.84, rgb(191,191,191))
 	);
+	box-shadow: 10px 10px 5px black;
 }
 
 #content .post h3{
@@ -166,7 +167,7 @@ sidebar
 	background-color:gray;
 	border:0px solid;
 	margin-top:100px;
-	box-shadow: 10px 10px 5px #988888;
+	box-shadow: 10px 10px 5px black;
 	background-image: linear-gradient(bottom, rgb(32,100,134) 23%, rgb(58,130,161) 51%);
 	background-image: -o-linear-gradient(bottom, rgb(32,100,134) 23%, rgb(58,130,161) 51%);
 	background-image: -moz-linear-gradient(bottom, rgb(32,100,134) 23%, rgb(58,130,161) 51%);
@@ -180,6 +181,7 @@ sidebar
 		color-stop(0.23, rgb(32,100,134)),
 		color-stop(0.51, rgb(58,130,161))
 	);
+	
 }
 
 #nav2{
@@ -243,4 +245,5 @@ sidebar
 		color-stop(0.03, rgb(247,247,247)),
 		color-stop(0.84, rgb(191,191,191))
 	);
+	box-shadow: 10px 10px 5px black;
 }
