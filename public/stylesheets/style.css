@@ -26,6 +26,10 @@ a:hover {
 	color:red;
 }
 
+h3{
+	color:red;
+}
+
 /*****************
 Navigation
 ****************/
@@ -110,8 +114,10 @@ Content
 
 .pic{
 	margin-left:10px;
+	margin-bottom:10px;
 	float:right;
-	border:2px outset orange;
+	border:2px outset black;
+	box-shadow: 10px 10px 5px #988888;
 }
 /*****************
 sidebar
@@ -181,7 +187,7 @@ sidebar
 #content2{
 	float:left;
 	width:900px;
-	margin-left:20px;
+	margin-left:80px;
 	margin-top:20px;
 }
 
@@ -189,8 +195,8 @@ sidebar
 	margin-right:20px;
 	margin-top:20px;
 	float:right;
-	width:400px;
+	width:300px;
 	background: #FFF;
 	padding:10px;
-	border:3px solid black;
+	border:3px dashed black;
 }
