@@ -96,6 +96,13 @@ Content
 	border:2px solid #CCC;
 }
 
+#content2 .post{
+	background:#FFF;
+	padding:10px;
+	margin-bottom:20px;
+	border:2px solid #CCC;
+}
+
 #content .post h3{
 	margin:0;
 	color:#333;
@@ -135,10 +142,10 @@ sidebar
 
 
 #wrapper2{
-	height:300px;
+	height:320px;
 	width:auto;
 	background-color:gray;
-	border:2px hidden;
+	border:2px solid;
 	margin-top:100px;
 }
 
@@ -163,4 +170,25 @@ sidebar
 	margin:20px 20px;
 	background-color:white;
 	padding:20px;
+}
+
+
+#sidenave{
+	float:right;
+}
+
+#content2{
+	float:left;
+	width:700px;
+	margin-right:20px;
+}
+
+#content3{
+	margin-left:70px;
+	margin-top:20px;
+	float:right;
+	width:600px;
+	background: #FFF;
+	padding:10px;
+	border:3px solid black;
 }
