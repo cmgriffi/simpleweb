@@ -39,8 +39,6 @@ Navigation
 	padding: 0;
 	float: right;
 	margin: 40 0;
-	border:3px dashed;
-	background-color:gray;
 }
 
 #nav li {
@@ -48,18 +46,10 @@ Navigation
 	margin-right:10px;
 	font-size:1.4em;
 	font-weight:bold;
-	border:3px dashed;
-	border-top:none;
-	border-bottom:none;
+	
 	
 }
-#nav li:first-child{
-	border-left:none;
-}
 
-#nav li:last-child{
-	border-right:none;
-}
 
 /*****************
 Header
